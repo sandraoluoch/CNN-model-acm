@@ -1,3 +1,5 @@
+<b> OVERVIEW </b>
+
 This is a repository for an experimental version of the deep learning model (Convolutional Neural Network) used in the All Cells Mask Pipeline for the Allen Institute for Science. The images generated from this model are used for analysis on the following paper:
 https://www.biorxiv.org/content/10.1101/2024.08.16.608353v1.full 
 
@@ -10,7 +12,7 @@ https://www.biorxiv.org/content/10.1101/2024.08.16.608353v1.full
 - For data validation the ground truth and predictions were overlaid on their raw image counterparts and spot checking 15% of data
 - After training this model was used to predict binary colony masks for all 3D images
 
-<b> My contribution: </b>
+<b> My contributions: </b>
 1) Data preprocessing and ground truth generation (created colony masks) 
 2) Qualitative data validation of predictions vs ground truths
 3) Helped build and train early versions of the deep learning model (CNN U-Net)
@@ -20,11 +22,9 @@ https://www.biorxiv.org/content/10.1101/2024.08.16.608353v1.full
 
 2D Colony
 
-![alt text](image-1.png)
-Raw Brightfield Image (right), CytoGFP image (middle), Ground Truth Segmentation (left)
+![Raw Brightfield Image (right), CytoGFP image (middle), Ground Truth Segmentation (left)](images/2d-colony-example.png)
 
 3D Colony
 
-![alt text](image.png)
-Raw Brightfield Image (right), CytoGFP image (middle), Ground Truth Segmentation (left)
+![Raw Brightfield Image (right), CytoGFP image (middle), Ground Truth Segmentation (left)](images/3d-colony-example.png)
 
